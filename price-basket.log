@@ -1,0 +1,107 @@
+2019-05-24 16:08:23 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication on Gerrys-MacBook-Pro-2.local with PID 61695 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/classes started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:08:23 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:08:23 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:08:24 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.488 seconds (JVM running for 2.917)
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - apply discount 100 - ((100 * Optional[com.mclarnonworld.pricebasket.model.Discount@f287fd9]) / 100 = 90
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - apply discount 80 - ((80 * Optional[com.mclarnonworld.pricebasket.model.Discount@7e4a530c]) / 100 = 40
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:08:24 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:09:11 INFO  c.m.p.PriceBasketApplicationTests - Starting PriceBasketApplicationTests on Gerrys-MacBook-Pro-2.local with PID 61708 (started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:09:11 DEBUG c.m.p.PriceBasketApplicationTests - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:09:11 INFO  c.m.p.PriceBasketApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-24 16:09:12 INFO  c.m.p.PriceBasketApplicationTests - Started PriceBasketApplicationTests in 1.422 seconds (JVM running for 2.633)
+2019-05-24 16:09:12 DEBUG c.m.p.PriceBasketApplication - usage: java -jar price-basket-0.0.1-SNAPSHOT.jar Apples Bread Soup Milk
+2019-05-24 16:09:21 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 61722 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:09:21 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:09:21 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:09:22 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.552 seconds (JVM running for 2.307)
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - apply discount 100 - ((100 * Optional[com.mclarnonworld.pricebasket.model.Discount@26aa12dd]) / 100 = 90
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - apply discount 80 - ((80 * Optional[com.mclarnonworld.pricebasket.model.Discount@3fd7a715]) / 100 = 40
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:09:22 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:09:30 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 61730 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:09:30 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:09:30 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:09:31 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.453 seconds (JVM running for 2.193)
+2019-05-24 16:09:31 DEBUG c.m.p.PriceBasketApplication - Unexpected item Soupxxx found in basket
+2019-05-24 16:13:36 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication on Gerrys-MacBook-Pro-2.local with PID 61742 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/classes started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:13:36 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:13:36 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:13:38 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.423 seconds (JVM running for 2.744)
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - apply discount 100 - ((100 * Optional[com.mclarnonworld.pricebasket.model.Discount@33ee3383]) / 100 = 90
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - apply discount 80 - ((80 * Optional[com.mclarnonworld.pricebasket.model.Discount@1d960d62]) / 100 = 40
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:13:38 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:14:38 INFO  c.m.p.PriceBasketApplicationTests - Starting PriceBasketApplicationTests on Gerrys-MacBook-Pro-2.local with PID 61747 (started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:14:38 DEBUG c.m.p.PriceBasketApplicationTests - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:14:38 INFO  c.m.p.PriceBasketApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-24 16:14:39 INFO  c.m.p.PriceBasketApplicationTests - Started PriceBasketApplicationTests in 0.955 seconds (JVM running for 2.008)
+2019-05-24 16:14:39 DEBUG c.m.p.PriceBasketApplication - usage: java -jar price-basket-0.0.1-SNAPSHOT.jar Apples Bread Soup Milk
+2019-05-24 16:15:27 INFO  c.m.p.PriceBasketApplicationTests - Starting PriceBasketApplicationTests on Gerrys-MacBook-Pro-2.local with PID 61766 (started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:15:27 DEBUG c.m.p.PriceBasketApplicationTests - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:15:27 INFO  c.m.p.PriceBasketApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-24 16:15:28 INFO  c.m.p.PriceBasketApplicationTests - Started PriceBasketApplicationTests in 0.979 seconds (JVM running for 2.102)
+2019-05-24 16:15:28 DEBUG c.m.p.PriceBasketApplication - usage: java -jar price-basket-0.0.1-SNAPSHOT.jar Apples Bread Soup Milk
+2019-05-24 16:15:38 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 61776 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:15:38 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:15:38 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:15:39 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.361 seconds (JVM running for 2.105)
+2019-05-24 16:15:39 DEBUG c.m.p.PriceBasketApplication - Unexpected item "Soupxxx" found in basket. [Lcom.mclarnonworld.pricebasket.model.Product;@6737fd8f
+2019-05-24 16:20:01 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 61805 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:20:01 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:20:01 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:20:02 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.573 seconds (JVM running for 2.388)
+2019-05-24 16:20:02 DEBUG c.m.p.PriceBasketApplication - Unexpected item "Soupxxx" found in basket. [Lcom.mclarnonworld.pricebasket.model.Product;@3a883ce7
+2019-05-24 16:20:22 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication on Gerrys-MacBook-Pro-2.local with PID 61813 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/classes started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:20:22 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:20:22 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:20:23 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.689 seconds (JVM running for 3.686)
+2019-05-24 16:23:15 DEBUG c.m.p.PriceBasketApplication - Unexpected item "Soupx" found in basket.
+2019-05-24 16:28:07 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication on Gerrys-MacBook-Pro-2.local with PID 61834 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/classes started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:28:07 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:28:07 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:28:08 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.344 seconds (JVM running for 2.704)
+2019-05-24 16:28:28 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication on Gerrys-MacBook-Pro-2.local with PID 61836 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/classes started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:28:28 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:28:28 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:28:29 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 1.454 seconds (JVM running for 2.449)
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - apply discount 100 - ((100 * Optional[com.mclarnonworld.pricebasket.model.Discount@6d2d8fc1]) / 100 = 90
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - apply discount 80 - ((80 * Optional[com.mclarnonworld.pricebasket.model.Discount@190d5d24]) / 100 = 40
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:28:29 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:34:34 INFO  c.m.p.PriceBasketApplicationTests - Starting PriceBasketApplicationTests on Gerrys-MacBook-Pro-2.local with PID 62036 (started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:34:34 DEBUG c.m.p.PriceBasketApplicationTests - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:34:34 INFO  c.m.p.PriceBasketApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-24 16:34:36 INFO  c.m.p.PriceBasketApplicationTests - Started PriceBasketApplicationTests in 2.669 seconds (JVM running for 5.555)
+2019-05-24 16:34:59 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 62171 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:34:59 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:34:59 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:35:01 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 2.713 seconds (JVM running for 4.435)
+2019-05-24 16:35:10 INFO  c.m.p.PriceBasketApplication - Starting PriceBasketApplication v0.0.1-SNAPSHOT on Gerrys-MacBook-Pro-2.local with PID 62180 (/Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket/target/price-basket-0.0.1-SNAPSHOT.jar started by gerrymclarnon in /Users/gerrymclarnon/Development/IdeaProjects/spring-boot/price-basket)
+2019-05-24 16:35:10 DEBUG c.m.p.PriceBasketApplication - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-24 16:35:10 INFO  c.m.p.PriceBasketApplication - No active profile set, falling back to default profiles: default
+2019-05-24 16:35:13 INFO  c.m.p.PriceBasketApplication - Started PriceBasketApplication in 4.871 seconds (JVM running for 7.523)
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - apply discount 100 - ((100 * Optional[com.mclarnonworld.pricebasket.model.Discount@79be0360]) / 100 = 90
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - apply discount 80 - ((80 * Optional[com.mclarnonworld.pricebasket.model.Discount@22a67b4]) / 100 = 40
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (100 * 10) / 100 = 10
+2019-05-24 16:35:13 DEBUG c.m.pricebasket.model.Product - get discount in pence (80 * 50) / 100 = 40
