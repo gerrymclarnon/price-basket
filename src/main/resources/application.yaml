@@ -1,0 +1,32 @@
+logging:
+  level:
+    org.springframework: ERROR
+    com.mclarnonworld.pricebasket: DEBUG
+
+spring:
+  main:
+    banner-mode: "off"
+
+catalogue:
+  products:
+    - name: Soup
+      price: 0.65
+    - name: Bread
+      price: 0.80
+    - name: Milk
+      price: 1.30
+    - name: Apples
+      price: 1.00
+
+store:
+  discounts:
+    # Buy 1 Apples get 10% off Apples
+    - buy: 1
+      of: Apples
+      andGet: 10
+      percentOff: Apples
+    # Buy 2 Soup get 50% off Bread
+    - buy: 2
+      of: Soup
+      andGet: 50
+      percentOff: Bread

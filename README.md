@@ -14,7 +14,7 @@ The goods that can be purchased, together with their normal prices are:
 Current special offers are: 
 
 * Apples have a 10% discount off their normal price this week
-* Buy 2 tins of soup and get a loaf of bread for half price 
+* Buy 2 tins of soup and andGet a loaf of bread for half price 
 
 The program accepts a list of items in the basket and output the subtotal, the special offer discounts and the final price. 
 

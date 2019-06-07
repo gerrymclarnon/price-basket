@@ -1,50 +1,49 @@
 package com.mclarnonworld.pricebasket;
 
-import com.mclarnonworld.pricebasket.exception.UnexpectedItemInBasketException;
-import com.mclarnonworld.pricebasket.model.Basket;
-import com.mclarnonworld.pricebasket.model.PricedBasket;
+import com.mclarnonworld.pricebasket.model.baskets.Basket;
+import com.mclarnonworld.pricebasket.model.baskets.PricedBasket;
+import com.mclarnonworld.pricebasket.model.products.ProductCatalogue;
 import com.mclarnonworld.pricebasket.service.PriceBasketService;
-import com.mclarnonworld.pricebasket.ui.PricedBasketOutput;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.mclarnonworld.pricebasket.ui.PricedBasketDisplay;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.Banner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@Slf4j
 public class PriceBasketApplication implements CommandLineRunner {
 
-	private static final Logger LOG = LoggerFactory.getLogger(PriceBasketApplication.class);
+    @Autowired
+    private ProductCatalogue productCatalogue;
 
-	@Autowired
-	PriceBasketService priceBasketService;
+    @Autowired
+    private PriceBasketService priceBasketService;
 
-	@Override
-	public void run(String... args) {
-		Basket basket = new Basket();
-		try {
-			basket.setItems(args);
-		}
-		catch (UnexpectedItemInBasketException e) {
-			System.out.println(e.getMessage());
-			System.exit(0);
-		}
+    @Autowired
+    private PricedBasketDisplay pricedBasketDisplay;
 
-		if (basket.getItems().size() == 0) {
-			System.out.println("Usage: PriceBasket Apples Bread Soup Milk");
-			return;
-		}
+    @Override
+    public void run(String... args) {
+        Basket basket = Basket
+                .builder()
+                .items(args)
+                .productCatalogue(productCatalogue)
+                .build();
 
-		PricedBasket pricedBasket = priceBasketService.getPricedBasket(basket);
+        if (basket.getItems().size() == 0) {
+            log.error("No basket items supplied on command line!");
+            System.out.println("Usage: PriceBasket Apples Bread Soup Milk");
+            return;
+        }
 
-		PricedBasketOutput.display(pricedBasket);
-	}
+        PricedBasket pricedBasket = priceBasketService.getPricedBasket(basket);
+        pricedBasketDisplay.show(pricedBasket);
+    }
 
-	public static void main(String[] args) {
-		SpringApplication app = new SpringApplication(PriceBasketApplication.class);
-		app.setBannerMode(Banner.Mode.OFF);
-		app.run(args);
-	}
+    public static void main(String[] args) {
+        SpringApplication app = new SpringApplication(PriceBasketApplication.class);
+        app.run(args);
+    }
 }
