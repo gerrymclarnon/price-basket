@@ -1,7 +1,9 @@
 package stepdefs;
 
-import cucumber.api.PendingException;
 import cucumber.api.java8.En;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +16,8 @@ import java.util.function.Consumer;
 import static java.lang.Runtime.*;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class StepDefinitions implements En {
 
     private String output = "";
